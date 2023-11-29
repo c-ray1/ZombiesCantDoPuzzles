@@ -48,7 +48,7 @@ public class Player : MonoBehaviour
         }
         else
         {
-            print("direction held");
+            //print("direction held");
             anim.CrossFade("PlayerRunning", 0);
             anim.speed = 1;
         }
