@@ -42,6 +42,8 @@ public class Player : MonoBehaviour
         Vector3 offset = Vector3.zero;
         if (dirHeld > -1) vel = directions[dirHeld];
 
+
+
         rigid.velocity = vel * speed;
 
         if (dirHeld == -1)
@@ -55,6 +57,7 @@ public class Player : MonoBehaviour
             anim.CrossFade("PlayerRunning", 0);
             anim.speed = 1;
         }
+        
         switch (dirHeld)
         {
             case 0: 
