@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2870820292974642170}
   - component: {fileID: 118138891421442085}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ApartmentBaseTile (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70,8 +70,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 470522879
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: c9a26c6a77bbf6047ace3c43b5c20ecc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -94,7 +94,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5373963070317929472}
   - component: {fileID: 2651390612795473476}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ApartmentBaseTile (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -154,8 +154,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 470522879
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: c9a26c6a77bbf6047ace3c43b5c20ecc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -178,7 +178,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8428402666710962550}
   - component: {fileID: 5202914249622631919}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ApartmentTile2 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -238,8 +238,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 470522879
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 552254bba38cac743821095cef2bb7b5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -262,7 +262,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3558417408031882190}
   - component: {fileID: 4578592152915969467}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ApartmentTile2 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -322,8 +322,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 470522879
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 552254bba38cac743821095cef2bb7b5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -346,7 +346,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3864126392296354325}
   - component: {fileID: 2206028536959175116}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ApartmentTile2 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -406,8 +406,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 470522879
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 552254bba38cac743821095cef2bb7b5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -430,7 +430,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7038778885730368442}
   - component: {fileID: 5817381671292696899}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ApartmentBaseTile (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -490,8 +490,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 470522879
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: c9a26c6a77bbf6047ace3c43b5c20ecc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -513,7 +513,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7732407330645810707}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FloorPattern2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -554,7 +554,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7489229469806298645}
   - component: {fileID: 4966228394348372312}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ApartmentBaseTile (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -614,8 +614,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 470522879
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: c9a26c6a77bbf6047ace3c43b5c20ecc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -638,7 +638,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4832616465379519894}
   - component: {fileID: 740480600253159552}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ApartmentBaseTile (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -698,8 +698,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 470522879
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: c9a26c6a77bbf6047ace3c43b5c20ecc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -722,7 +722,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2843777876555619237}
   - component: {fileID: 8938853270972952971}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ApartmentTile2 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -782,8 +782,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 470522879
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 552254bba38cac743821095cef2bb7b5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
