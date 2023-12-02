@@ -5,7 +5,7 @@ using UnityEngine;
 public class BasicZombie : Enemy
 {
     public Transform player;
-    private Vector2 movement;
+    private Vector3 movement;
 
     [Header("Set in Inspector: BasicZombie")]
     public int speed = 2;
@@ -19,16 +19,19 @@ public class BasicZombie : Enemy
 
     void Update()
     {
-        Vector3 direction = player.position - transform.position;
-        print(direction.magnitude);
-        if (direction.magnitude <= 9)
+        if (player != null)
         {
-            direction.Normalize();
-            movement = direction;
+            Vector3 direction = player.position - transform.position;
+            //print(direction.magnitude);
+            if (direction.magnitude <= 9)
+            {
+                direction.Normalize();
+                movement = direction;
+            }
         }
         else
         {
-            print("inside");
+            //print("inside");
             if (Time.time >= timeNextDecision)
             {
                 DecideDecision();
@@ -36,6 +39,7 @@ public class BasicZombie : Enemy
 
             rigid.velocity = directions[facing] * speed;
         }
+        
     }
 
     private void FixedUpdate()
@@ -43,9 +47,9 @@ public class BasicZombie : Enemy
         moveCharacter(movement);
     }
 
-    void moveCharacter(Vector2 direction)
+    void moveCharacter(Vector3 direction)
     {
-        rigid.MovePosition((Vector2)transform.position + (direction * speed * Time.deltaTime));
+        rigid.MovePosition(transform.position + (direction * speed * Time.deltaTime));
     }
 
     void DecideDecision()
