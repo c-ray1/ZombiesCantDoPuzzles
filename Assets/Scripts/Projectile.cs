@@ -4,15 +4,23 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [Header("Set Dynamically")]
+    public int damage = 1;
 
-    // Update is called once per frame
-    void Update()
+
+    void OnCollisionEnter(Collision coll)
     {
-        
+        GameObject otherGO = coll.gameObject;
+        //print(otherGO.tag);
+        if(otherGO.tag == "Enemies")
+        {
+            Enemy e = otherGO.GetComponent<Enemy>();
+            e.health = e.health - damage;
+            if (e.health <= 0)
+            {
+                Destroy(otherGO);
+            }
+        }
+        Destroy(gameObject);
     }
 }
