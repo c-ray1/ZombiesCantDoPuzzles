@@ -8,6 +8,7 @@ public class Spawner : MonoBehaviour
 
     [Header("Set in Inspector")]
     public GameObject[] prefabEnemies;
+    public GameObject spawner;
     public GameObject player;
     public int enemyDistanceSpawn = 15;
     public float enemySpawnPerSecond = 0.5f;
@@ -21,9 +22,12 @@ public class Spawner : MonoBehaviour
 
     void SpawnEnemy()
     {
-        Vector3 distance = player.transform.position - instance.transform.position;
+        //print("enter function");
+        Vector3 distance = player.transform.position - spawner.transform.position;
+        print(distance.magnitude);
         if (distance.magnitude < enemyDistanceSpawn)
         {
+            print("inside spawner");
             int ndx = Random.Range(0, prefabEnemies.Length);
             GameObject go = Instantiate<GameObject>(prefabEnemies[ndx]);
             Vector3 pos = this.transform.position;
