@@ -27,7 +27,7 @@ public class Spawner : MonoBehaviour
         //print(distance.magnitude);
         if (distance.magnitude < enemyDistanceSpawn)
         {
-            print("inside spawner");
+            //print("inside spawner");
             int ndx = Random.Range(0, prefabEnemies.Length);
             GameObject go = Instantiate<GameObject>(prefabEnemies[ndx]);
             Vector3 pos = this.transform.position;

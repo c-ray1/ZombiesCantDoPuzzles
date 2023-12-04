@@ -152,8 +152,7 @@ public class Player : MonoBehaviour
             }
             if(health <= 0)
             {
-                BasicZombie BZ = otherGO.GetComponent<BasicZombie>();
-                BZ.speed = 0;
+                Time.timeScale = 0.0f;
                 Invoke(nameof(Restart), gameRestartDelay);
             }
         }
