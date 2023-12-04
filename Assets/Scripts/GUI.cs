@@ -21,8 +21,19 @@ public class GUI : MonoBehaviour
 
     void Update()
     {
-        keyDisplay.text = "Keys: " + player.numKeys.ToString();
-        healthDisplay.text = "Health: " + player.health.ToString();
+        foreach(var key in player.Keys)
+        {
+            keyDisplay.text = "Current Key: " + key;
+        }
+        if(player.health > 0)
+        {
+            healthDisplay.text = "Health: " + player.health.ToString();
+        }
+        else
+        {
+            healthDisplay.text = "You're dead";
+        }
+        
     }
 
 }

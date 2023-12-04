@@ -6,9 +6,14 @@ public class Keychain: MonoBehaviour
 {
     List<string> m_KeyTypeOwned = new List<string>();
 
+    [Header("Set in Inspector")]
+    public Player player;
+
     public void GrabbedKey(string keyType)
     {
+        //print(keyType);
         m_KeyTypeOwned.Add(keyType);
+        player.Keys.Add(keyType);
         Debug.Log("KeyType Added: " + m_KeyTypeOwned.Contains(keyType));
     }
 
@@ -20,5 +25,6 @@ public class Keychain: MonoBehaviour
     public void UseKey(string keyType)
     {
         m_KeyTypeOwned.Remove(keyType);
+        player.Keys.Remove(keyType);
     }
 }

@@ -13,8 +13,8 @@ public class Player : MonoBehaviour
     public float knockbackSpeed = 10;
     public float knockbackDuration = 0.25f;
     public float invincibleDuration = 0.5f;
-    public float gameRestartDelay = 2f;
-    public int numKeys = 0;
+    public float gameRestartDelay = 0.01f;
+    
 
     [Header("Set Dynamically")]
     public int dirHeld = -1;
@@ -22,6 +22,8 @@ public class Player : MonoBehaviour
     public float projectileSpeed = 40;
     public bool invincible = false;
     public eMode mode = eMode.idle;
+    public List<string> Keys = new List<string>();
+
 
     private Rigidbody rigid;
     private Animator anim;
@@ -106,6 +108,11 @@ public class Player : MonoBehaviour
             rigid.velocity = knockbackVel;
             if (Time.time < knockbackDone) return;
         }
+        if (health <= 0)
+        {
+            speed = 0;
+            Invoke(nameof(Restart), gameRestartDelay);
+        }
     }
 
     void TempFire(Vector3 vel, Vector3 offset)
@@ -150,11 +157,7 @@ public class Player : MonoBehaviour
                 mode = eMode.knockback;
                 knockbackDone = Time.time + knockbackDuration;
             }
-            if(health <= 0)
-            {
-                Time.timeScale = 0.0f;
-                Invoke(nameof(Restart), gameRestartDelay);
-            }
+            
         }
     }
 

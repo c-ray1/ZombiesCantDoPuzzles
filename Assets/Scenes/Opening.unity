@@ -2289,6 +2289,7 @@ MonoBehaviour:
   projectileSpeed: 40
   invincible: 0
   mode: 0
+  Keys: []
 --- !u!95 &81124180
 Animator:
   serializedVersion: 4
@@ -4178,8 +4179,10 @@ MonoBehaviour:
     - Uh oh! Looks like the zombie apocolypse happened while you were busy gaming.
     - You need to get out, but your landlord Karen took your apartment key since
       you were late on rent.
-    - Good thing you have this handy gun on you that you got off Amuzon to defend
+    - 'Good thing you have this handy gun on you that you got off Amuzon to defend
       yourself with.
+
+      (Use WASD or arrow keys to move. Space to shoot)'
 --- !u!114 &147340942
 MonoBehaviour:
   m_ObjectHideFlags: 0
