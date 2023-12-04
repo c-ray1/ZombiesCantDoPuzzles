@@ -24,7 +24,7 @@ public class Spawner : MonoBehaviour
     {
         //print("enter function");
         Vector3 distance = player.transform.position - spawner.transform.position;
-        print(distance.magnitude);
+        //print(distance.magnitude);
         if (distance.magnitude < enemyDistanceSpawn)
         {
             print("inside spawner");

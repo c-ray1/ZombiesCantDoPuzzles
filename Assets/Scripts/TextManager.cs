@@ -9,7 +9,7 @@ public class TextManager : MonoBehaviour
     public Text dialougeText;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         dialouge = new Queue<string>();
 
