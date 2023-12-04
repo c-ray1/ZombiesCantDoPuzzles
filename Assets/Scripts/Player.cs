@@ -14,6 +14,7 @@ public class Player : MonoBehaviour
     public float knockbackDuration = 0.25f;
     public float invincibleDuration = 0.5f;
     public float gameRestartDelay = 2f;
+    public int numKeys = 0;
 
     [Header("Set Dynamically")]
     public int dirHeld = -1;
